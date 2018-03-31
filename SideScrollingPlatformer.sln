@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_1_TP2_SideScrollingFighter", "9_1_TP2_SideScrollingFighter\9_1_TP2_SideScrollingFighter.vcxproj", "{9EC42AC3-53FA-4895-A802-C6EF42C7329D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlatformerTest", "PlateformerTest\PlateformerTest.vcxproj", "{4DCAEBCE-F392-46BA-945E-78EFF821D37F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9EC42AC3-53FA-4895-A802-C6EF42C7329D} = {9EC42AC3-53FA-4895-A802-C6EF42C7329D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EC42AC3-53FA-4895-A802-C6EF42C7329D}.Debug|x64.ActiveCfg = Debug|Win32
+		{9EC42AC3-53FA-4895-A802-C6EF42C7329D}.Debug|x86.ActiveCfg = Debug|Win32
+		{9EC42AC3-53FA-4895-A802-C6EF42C7329D}.Debug|x86.Build.0 = Debug|Win32
+		{9EC42AC3-53FA-4895-A802-C6EF42C7329D}.Release|x64.ActiveCfg = Release|Win32
+		{9EC42AC3-53FA-4895-A802-C6EF42C7329D}.Release|x86.ActiveCfg = Release|Win32
+		{9EC42AC3-53FA-4895-A802-C6EF42C7329D}.Release|x86.Build.0 = Release|Win32
+		{4DCAEBCE-F392-46BA-945E-78EFF821D37F}.Debug|x64.ActiveCfg = Debug|Win32
+		{4DCAEBCE-F392-46BA-945E-78EFF821D37F}.Debug|x86.ActiveCfg = Debug|Win32
+		{4DCAEBCE-F392-46BA-945E-78EFF821D37F}.Debug|x86.Build.0 = Debug|Win32
+		{4DCAEBCE-F392-46BA-945E-78EFF821D37F}.Release|x64.ActiveCfg = Release|Win32
+		{4DCAEBCE-F392-46BA-945E-78EFF821D37F}.Release|x86.ActiveCfg = Release|Win32
+		{4DCAEBCE-F392-46BA-945E-78EFF821D37F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

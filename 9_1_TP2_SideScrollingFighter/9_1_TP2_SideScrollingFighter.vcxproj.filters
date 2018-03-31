@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\entity">
+      <UniqueIdentifier>{69705d92-2541-4ea8-8dd0-3323655c71f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\entity">
+      <UniqueIdentifier>{eb68b4c2-2279-484e-b993-3efa4fc70e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\entity\Movable">
+      <UniqueIdentifier>{4ff28e59-27f4-4417-9737-10eb7a48b297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\entity\Movable">
+      <UniqueIdentifier>{8765dd42-d1ee-459c-b1de-279b4b48abdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Menu">
+      <UniqueIdentifier>{c631bbc5-d30a-4a85-a7ad-c0967c733ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Menu">
+      <UniqueIdentifier>{e5055f4e-54bd-440b-ad08-c03cf8809a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Menu\MVC">
+      <UniqueIdentifier>{9c602641-e58f-49e2-969b-813585590397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Menu\MVC">
+      <UniqueIdentifier>{01c89b2f-49fa-4d09-8d04-f917816e68fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Menu\Menus">
+      <UniqueIdentifier>{68e7f4dd-5ce9-4a21-9eb0-586d4a542abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Menu\Menus">
+      <UniqueIdentifier>{f2d1edf5-e846-42ea-b4fe-ea34e398d9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Menu\MVC\Account Management">
+      <UniqueIdentifier>{1631928a-1804-4b19-90ad-b1ad84dbe1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Menu\MVC\Account Management">
+      <UniqueIdentifier>{3838385b-d95c-4f23-8605-053a870ad362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Menu\MVC\Score">
+      <UniqueIdentifier>{590368ec-d715-42af-9baa-8a482e41bd7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Menu\MVC\Score">
+      <UniqueIdentifier>{820fd27d-7314-4989-afe2-2f74e8565200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Menu\InterfaceTools">
+      <UniqueIdentifier>{ba26abfe-da12-49be-99a5-7669f11d6ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Menu\InterfaceTools">
+      <UniqueIdentifier>{f3f0a75e-4286-4f3f-9106-519e331e8259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\entity\Movable\character">
+      <UniqueIdentifier>{56d3e42a-ea3b-42e8-a414-4c107fb0c0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\entity\Movable\Character">
+      <UniqueIdentifier>{86b1bb6e-c82a-4303-bf78-16c01a5af576}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="input_manager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="movable.cpp">
+      <Filter>Fichiers sources\entity\Movable</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>Fichiers sources\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Fichiers sources\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_factory.cpp">
+      <Filter>Fichiers sources\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_controller.cpp">
+      <Filter>Fichiers sources\Menu\MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="account_management.cpp">
+      <Filter>Fichiers sources\Menu\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu.cpp">
+      <Filter>Fichiers sources\Menu\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="multiplayer.cpp">
+      <Filter>Fichiers sources\Menu\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="options.cpp">
+      <Filter>Fichiers sources\Menu\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="pause_menu.cpp">
+      <Filter>Fichiers sources\Menu\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="play.cpp">
+      <Filter>Fichiers sources\Menu\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>Fichiers sources\Menu\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="score_controller.cpp">
+      <Filter>Fichiers sources\Menu\MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="score_model.cpp">
+      <Filter>Fichiers sources\Menu\MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="modify_account.cpp">
+      <Filter>Fichiers sources\Menu\MVC\Account Management</Filter>
+    </ClCompile>
+    <ClCompile Include="create_account.cpp">
+      <Filter>Fichiers sources\Menu\MVC\Account Management</Filter>
+    </ClCompile>
+    <ClCompile Include="delete_account.cpp">
+      <Filter>Fichiers sources\Menu\MVC\Account Management</Filter>
+    </ClCompile>
+    <ClCompile Include="log_in.cpp">
+      <Filter>Fichiers sources\Menu\MVC\Account Management</Filter>
+    </ClCompile>
+    <ClCompile Include="account_model.cpp">
+      <Filter>Fichiers sources\Menu\MVC\Account Management</Filter>
+    </ClCompile>
+    <ClCompile Include="account_controller.cpp">
+      <Filter>Fichiers sources\Menu\MVC\Account Management</Filter>
+    </ClCompile>
+    <ClCompile Include="my_high_score.cpp">
+      <Filter>Fichiers sources\Menu\MVC\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="high_score.cpp">
+      <Filter>Fichiers sources\Menu\MVC\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Fichiers sources\Menu\InterfaceTools</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>Fichiers sources\Menu\InterfaceTools</Filter>
+    </ClCompile>
+    <ClCompile Include="textbox.cpp">
+      <Filter>Fichiers sources\Menu\InterfaceTools</Filter>
+    </ClCompile>
+    <ClCompile Include="search_high_score.cpp">
+      <Filter>Fichiers sources\Menu\MVC\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="shuriken.cpp">
+      <Filter>Fichiers sources\entity\Movable</Filter>
+    </ClCompile>
+    <ClCompile Include="shuriken_spawner.cpp">
+      <Filter>Fichiers sources\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>Fichiers sources\entity\Movable\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="npc.cpp">
+      <Filter>Fichiers sources\entity\Movable\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="player_character.cpp">
+      <Filter>Fichiers sources\entity\Movable\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="saw.cpp">
+      <Filter>Fichiers sources\entity\Movable\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="spike_trap.cpp">
+      <Filter>Fichiers sources\entity\Movable\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="skeleton.cpp">
+      <Filter>Fichiers sources\entity\Movable\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="victory_screen.cpp">
+      <Filter>Fichiers sources\Menu\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="defeat_screen.cpp">
+      <Filter>Fichiers sources\Menu\Menus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="input_manager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="movable.h">
+      <Filter>Fichiers d%27en-tête\entity\Movable</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>Fichiers d%27en-tête\entity\Movable</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>Fichiers d%27en-tête\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Fichiers d%27en-tête\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_factory.h">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Fichiers d%27en-tête\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_model.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_controller.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="account_management.h">
+      <Filter>Fichiers d%27en-tête\Menu\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="main_menu.h">
+      <Filter>Fichiers d%27en-tête\Menu\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="multiplayer.h">
+      <Filter>Fichiers d%27en-tête\Menu\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="options.h">
+      <Filter>Fichiers d%27en-tête\Menu\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="pause_menu.h">
+      <Filter>Fichiers d%27en-tête\Menu\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="play.h">
+      <Filter>Fichiers d%27en-tête\Menu\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>Fichiers d%27en-tête\Menu\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="score_controller.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="score_model.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="create_account.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC\Account Management</Filter>
+    </ClInclude>
+    <ClInclude Include="delete_account.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC\Account Management</Filter>
+    </ClInclude>
+    <ClInclude Include="modify_account.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC\Account Management</Filter>
+    </ClInclude>
+    <ClInclude Include="my_high_score.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="high_score.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="log_in.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC\Account Management</Filter>
+    </ClInclude>
+    <ClInclude Include="account_model.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC\Account Management</Filter>
+    </ClInclude>
+    <ClInclude Include="account_controller.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC\Account Management</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Fichiers d%27en-tête\Menu\InterfaceTools</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>Fichiers d%27en-tête\Menu\InterfaceTools</Filter>
+    </ClInclude>
+    <ClInclude Include="textbox.h">
+      <Filter>Fichiers d%27en-tête\Menu\InterfaceTools</Filter>
+    </ClInclude>
+    <ClInclude Include="search_high_score.h">
+      <Filter>Fichiers d%27en-tête\Menu\MVC\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="shuriken.h">
+      <Filter>Fichiers d%27en-tête\entity\Movable</Filter>
+    </ClInclude>
+    <ClInclude Include="shuriken_spawner.h">
+      <Filter>Fichiers d%27en-tête\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Fichiers d%27en-tête\entity\Movable\character</Filter>
+    </ClInclude>
+    <ClInclude Include="npc.h">
+      <Filter>Fichiers d%27en-tête\entity\Movable\character</Filter>
+    </ClInclude>
+    <ClInclude Include="player_character.h">
+      <Filter>Fichiers d%27en-tête\entity\Movable\character</Filter>
+    </ClInclude>
+    <ClInclude Include="spike_trap.h">
+      <Filter>Fichiers d%27en-tête\entity\Movable\character</Filter>
+    </ClInclude>
+    <ClInclude Include="saw.h">
+      <Filter>Fichiers d%27en-tête\entity\Movable\character</Filter>
+    </ClInclude>
+    <ClInclude Include="skeleton.h">
+      <Filter>Fichiers d%27en-tête\entity\Movable\character</Filter>
+    </ClInclude>
+    <ClInclude Include="victory_screen.h">
+      <Filter>Fichiers d%27en-tête\Menu\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="defeat_screen.h">
+      <Filter>Fichiers d%27en-tête\Menu\Menus</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

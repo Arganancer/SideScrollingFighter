@@ -1,0 +1,171 @@
+﻿  victory_screen.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\victory_screen.cpp(14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\victory_screen.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\victory_screen.cpp(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\victory_screen.cpp(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  tile.cpp
+  textbox.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\textbox.cpp(13): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\textbox.cpp(13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\textbox.cpp(63): warning C4018: '>': signed/unsigned mismatch
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\textbox.cpp(77): warning C4018: '>': signed/unsigned mismatch
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\textbox.cpp(90): warning C4018: '>=': signed/unsigned mismatch
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\textbox.cpp(133): warning C4244: 'return': conversion from 'const float' to 'int', possible loss of data
+  text.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\text.cpp(94): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  spike_trap.cpp
+  skeleton.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\skeleton.cpp(64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\skeleton.cpp(65): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\skeleton.cpp(66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\skeleton.cpp(67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  shuriken_spawner.cpp
+  shuriken.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\shuriken.cpp(68): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\shuriken.cpp(71): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\shuriken.cpp(72): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\shuriken.cpp(73): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\shuriken.cpp(74): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\shuriken.cpp(75): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  search_high_score.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\search_high_score.cpp(15): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\search_high_score.cpp(18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\search_high_score.cpp(23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\search_high_score.cpp(92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  score_model.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\score_model.cpp(134): warning C4018: '<': signed/unsigned mismatch
+  score_controller.cpp
+  score.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\score.cpp(8): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\score.cpp(11): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\score.cpp(14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\score.cpp(17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\score.cpp(20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  scene.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\scene.cpp(43): warning C4244: 'argument': conversion from '::size_t' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\scene.cpp(50): warning C4244: 'argument': conversion from '::size_t' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\scene.cpp(56): warning C4244: 'argument': conversion from '::size_t' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\scene.cpp(67): warning C4244: 'argument': conversion from '::size_t' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\scene.cpp(111): warning C4244: 'argument': conversion from '::size_t' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\scene.cpp(112): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  saw.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\saw.cpp(49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  player_character.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\player_character.cpp(78): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\player_character.cpp(79): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\player_character.cpp(80): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\player_character.cpp(81): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  play.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\play.cpp(7): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\play.cpp(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\play.cpp(13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\play.cpp(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  pause_menu.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\pause_menu.cpp(7): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\pause_menu.cpp(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\pause_menu.cpp(13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\pause_menu.cpp(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\pause_menu.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  options.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\options.cpp(7): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\options.cpp(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\options.cpp(13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  npc.cpp
+  my_high_score.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\my_high_score.cpp(15): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\my_high_score.cpp(24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\score_model.cpp(130): warning C4715: 'score_model::delete_account_score': not all control paths return a value
+  Compiling...
+  multiplayer.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\multiplayer.cpp(7): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\multiplayer.cpp(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\multiplayer.cpp(13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\multiplayer.cpp(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  movable.cpp
+  modify_account.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(29): warning C4018: '<': signed/unsigned mismatch
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(34): warning C4244: 'argument': conversion from '::size_t' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(95): warning C4018: '<': signed/unsigned mismatch
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(112): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(117): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(123): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(128): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\modify_account.cpp(181): warning C4018: '<': signed/unsigned mismatch
+  menu_factory.cpp
+  menu_controller.cpp
+  menu.cpp
+  main_menu.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\main_menu.cpp(7): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\main_menu.cpp(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\main_menu.cpp(13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\main_menu.cpp(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\main_menu.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\main_menu.cpp(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+  log_in.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\log_in.cpp(9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\log_in.cpp(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\log_in.cpp(17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\log_in.cpp(20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\log_in.cpp(23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\log_in.cpp(26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\log_in.cpp(29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  input_manager.cpp
+  high_score.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\high_score.cpp(17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\high_score.cpp(28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\high_score.cpp(43): warning C4018: '<': signed/unsigned mismatch
+  game.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\game.cpp(113): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\game.cpp(137): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\game.cpp(143): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\game.cpp(361): warning C4305: 'initializing': truncation from 'double' to 'float'
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\game.cpp(611): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\game.cpp(614): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  entity.cpp
+  delete_account.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\delete_account.cpp(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\delete_account.cpp(23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\delete_account.cpp(26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\delete_account.cpp(29): warning C4018: '<': signed/unsigned mismatch
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\delete_account.cpp(32): warning C4244: 'argument': conversion from '::size_t' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\delete_account.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\delete_account.cpp(36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\delete_account.cpp(54): warning C4018: '<': signed/unsigned mismatch
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\delete_account.cpp(66): warning C4018: '<': signed/unsigned mismatch
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\delete_account.cpp(74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  defeat_screen.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\defeat_screen.cpp(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\defeat_screen.cpp(15): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  create_account.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\create_account.cpp(9): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\create_account.cpp(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\create_account.cpp(17): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\create_account.cpp(20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\create_account.cpp(23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  character.cpp
+  button.cpp
+  account_model.cpp
+  account_management.cpp
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\account_management.cpp(7): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\account_management.cpp(10): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\account_management.cpp(13): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\account_management.cpp(16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\personal programs\c++\sidescrollingfighter\9_1_tp2_sidescrollingfighter\account_management.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
+  account_controller.cpp
+  Generating Code...
+  9_1_TP2_SideScrollingFighter.vcxproj -> E:\Prog_Projects\Personal Programs\C++\SideScrollingFighter\Debug\9_1_TP2_SideScrollingFighter.exe
+  9_1_TP2_SideScrollingFighter.vcxproj -> E:\Prog_Projects\Personal Programs\C++\SideScrollingFighter\Debug\9_1_TP2_SideScrollingFighter.pdb (Partial PDB)
+  0 File(s) copied

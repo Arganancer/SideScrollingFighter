@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9ec42ac3-53fa-4895-a802-c6ef42c7329d}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>_9_1_TP2_SideScrollingFighter</RootNamespace>
+    <ProjectName>SideScrollingPlatformer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SFML_ROOT)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SFML_ROOT)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SFML_ROOT)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SFML_ROOT)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-main-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-window-d.lib;openal32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /d /y $(SFML_ROOT)\bin\Debug\*.* "..\Debug\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-system.lib;sfml-main.lib;sfml-graphics.lib;sfml-audio.lib;sfml-network.lib;sfml-window.lib;openal32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /d /y $(SFML_ROOT)\bin\Release\*.* "..\Release\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="account_controller.cpp" />
+    <ClCompile Include="account_management.cpp" />
+    <ClCompile Include="account_model.cpp" />
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="character.cpp" />
+    <ClCompile Include="create_account.cpp" />
+    <ClCompile Include="defeat_screen.cpp" />
+    <ClCompile Include="delete_account.cpp" />
+    <ClCompile Include="entity.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="high_score.cpp" />
+    <ClCompile Include="input_manager.cpp" />
+    <ClCompile Include="log_in.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_menu.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="menu_controller.cpp" />
+    <ClCompile Include="menu_factory.cpp" />
+    <ClCompile Include="modify_account.cpp" />
+    <ClCompile Include="movable.cpp" />
+    <ClCompile Include="multiplayer.cpp" />
+    <ClCompile Include="my_high_score.cpp" />
+    <ClCompile Include="npc.cpp" />
+    <ClCompile Include="options.cpp" />
+    <ClCompile Include="pause_menu.cpp" />
+    <ClCompile Include="play.cpp" />
+    <ClCompile Include="player_character.cpp" />
+    <ClCompile Include="saw.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="score.cpp" />
+    <ClCompile Include="score_controller.cpp" />
+    <ClCompile Include="score_model.cpp" />
+    <ClCompile Include="search_high_score.cpp" />
+    <ClCompile Include="shuriken.cpp" />
+    <ClCompile Include="shuriken_spawner.cpp" />
+    <ClCompile Include="skeleton.cpp" />
+    <ClCompile Include="spike_trap.cpp" />
+    <ClCompile Include="text.cpp" />
+    <ClCompile Include="textbox.cpp" />
+    <ClCompile Include="tile.cpp" />
+    <ClCompile Include="victory_screen.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="account_controller.h" />
+    <ClInclude Include="account_management.h" />
+    <ClInclude Include="account_model.h" />
+    <ClInclude Include="button.h" />
+    <ClInclude Include="character.h" />
+    <ClInclude Include="create_account.h" />
+    <ClInclude Include="defeat_screen.h" />
+    <ClInclude Include="delete_account.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="high_score.h" />
+    <ClInclude Include="input_manager.h" />
+    <ClInclude Include="log_in.h" />
+    <ClInclude Include="main_menu.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="menu_controller.h" />
+    <ClInclude Include="menu_factory.h" />
+    <ClInclude Include="menu_model.h" />
+    <ClInclude Include="modify_account.h" />
+    <ClInclude Include="movable.h" />
+    <ClInclude Include="multiplayer.h" />
+    <ClInclude Include="my_high_score.h" />
+    <ClInclude Include="npc.h" />
+    <ClInclude Include="options.h" />
+    <ClInclude Include="particle.h" />
+    <ClInclude Include="pause_menu.h" />
+    <ClInclude Include="play.h" />
+    <ClInclude Include="player_character.h" />
+    <ClInclude Include="saw.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="score.h" />
+    <ClInclude Include="score_controller.h" />
+    <ClInclude Include="score_model.h" />
+    <ClInclude Include="search_high_score.h" />
+    <ClInclude Include="shuriken.h" />
+    <ClInclude Include="shuriken_spawner.h" />
+    <ClInclude Include="skeleton.h" />
+    <ClInclude Include="spike_trap.h" />
+    <ClInclude Include="text.h" />
+    <ClInclude Include="textbox.h" />
+    <ClInclude Include="tile.h" />
+    <ClInclude Include="victory_screen.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  score_test.cpp
+  account_test.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     Creating library E:\Prog_Projects\Personal Programs\C++\SideScrollingFighter\Release\PlatformerTest.lib and object E:\Prog_Projects\Personal Programs\C++\SideScrollingFighter\Release\PlatformerTest.exp
+account_test.obj : error LNK2001: unresolved external symbol "public: static bool __cdecl account_model::init(void)" (?init@account_model@@SA_NXZ)
+account_test.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::String(void)" (__imp_??0String@sf@@QAE@XZ)
+account_test.obj : error LNK2001: unresolved external symbol "public: static class std::vector<class sf::String,class std::allocator<class sf::String> > __cdecl account_model::get_accounts(void)" (?get_accounts@account_model@@SA?AV?$vector@VString@sf@@V?$allocator@VString@sf@@@std@@@std@@XZ)
+account_test.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ)
+E:\Prog_Projects\Personal Programs\C++\SideScrollingFighter\Release\PlatformerTest.dll : fatal error LNK1120: 4 unresolved externals

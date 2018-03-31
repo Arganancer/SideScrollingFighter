@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="game">
+    <Position X="41.75" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="game::game_state" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>game.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQKEEgACQwAAAAAlABJIAIARAgACAAYoIQEAoAFUAwQ=</HashCode>
+      <FileName>game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="input_manager" Collapsed="true">
+    <Position X="38.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MkQSAAgCIBkQhAgQAQEAEEEwBAQIAACAQAAwKEiMAHA=</HashCode>
+      <FileName>input_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="scene" Collapsed="true">
+    <Position X="40" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAACAAAAAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAIAAA=</HashCode>
+      <FileName>scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="entity" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="shuriken_spawner" Collapsed="true">
+    <Position X="17" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAQAQAggCCAAAAAAAAAAAAAQAAAAAECQgAIFAAA=</HashCode>
+      <FileName>shuriken_spawner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tile" Collapsed="true">
+    <Position X="1.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAABABAAAAAAAAAAIAoAAAAQAAAAAECAAAAAAAA=</HashCode>
+      <FileName>tile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="movable" Collapsed="true">
+    <Position X="9" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CASDTCBCzEAAWRbCAAQIBAAAAQBQAQBQjQQIkACAAAQ=</HashCode>
+      <FileName>movable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="particle" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="shuriken" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAAEAAAACAAAAAAACEAABAAQIAACAECAgIIEAAA=</HashCode>
+      <FileName>shuriken.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="character" Collapsed="true">
+    <Position X="11.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="npc" Collapsed="true">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>npc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="player_character" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCACEAAAAzQApAAQoACAgIgEAQQRBQAFSAESAFRUA=</HashCode>
+      <FileName>player_character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="saw" Collapsed="true">
+    <Position X="8" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBCAIAAMAAAAAAAAAAAAAAAAAAAQAAAAAECAIAAEAAA=</HashCode>
+      <FileName>saw.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="skeleton" Collapsed="true">
+    <Position X="10.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEBAAggAABAAAJhAoACAAwAUASgIAAEECAEABkAAA=</HashCode>
+      <FileName>skeleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="spike_trap" Collapsed="true">
+    <Position X="12.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAAgAAQABAAAAAAAAIAgAAAAQAAAAAEGAAAAEAQA=</HashCode>
+      <FileName>spike_trap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="menu" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEAEAAA=</HashCode>
+      <FileName>menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="menu_controller" Collapsed="true">
+    <Position X="38.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ESAAAAAAAAQAAAgAAIIEAgAAAAAAAAAAAAAgAAAEAAA=</HashCode>
+      <FileName>menu_controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="score_controller" Collapsed="true">
+    <Position X="38.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAQAQEAACAAAAAAAAAwAAAAAAAAACAgAAA=</HashCode>
+      <FileName>score_controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="score_model" Collapsed="true">
+    <Position X="40" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAEAgAAAAAISkAAAAAAAQAKAIAAAIABAIAI=</HashCode>
+      <FileName>score_model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="account_controller" Collapsed="true">
+    <Position X="38.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIACAADAgACAAQAABEAAABAACABAIAAgAAAAADAAA=</HashCode>
+      <FileName>account_controller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="account_model" Collapsed="true">
+    <Position X="40" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEACAAAAAQAABEAQCIABAAIAIAA4AAABACAAA=</HashCode>
+      <FileName>account_model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="create_account" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAIMAAEAAAAAIEAAAAAAAgAEAAA=</HashCode>
+      <FileName>create_account.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="delete_account" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAARjAABAAQAAIIIAgAAIAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>delete_account.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="log_in" Collapsed="true">
+    <Position X="24.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAgAAAAAAAIAAAMAAAACIAAAAAEAAgQEAAA=</HashCode>
+      <FileName>log_in.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="modify_account" Collapsed="true">
+    <Position X="29" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAgIADIBYAAAAAgIAAAAAQKAAAAIAABAAAABEAiA=</HashCode>
+      <FileName>modify_account.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="high_score" Collapsed="true">
+    <Position X="33.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAQAAQAAAAAAMYAAAAAAAAAAAAQAAAAAAEAAA=</HashCode>
+      <FileName>high_score.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="my_high_score">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQAAQAAAAAAMIAgAAAAAAAAABQAAAAAAEAAA=</HashCode>
+      <FileName>my_high_score.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="search_high_score" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQAAQAAAAAANIAAEAQAAAIAAAQAAAAAAEABA=</HashCode>
+      <FileName>search_high_score.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="account_management" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAARAAAAAAQAAIMAAAAAAAAAAAAAACAAAAEAAA=</HashCode>
+      <FileName>account_management.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="defeat_screen" Collapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAQAAAAAAAAAIIAAAAAAAAAAQAAAAAAAAEAAA=</HashCode>
+      <FileName>defeat_screen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="main_menu" Collapsed="true">
+    <Position X="26.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAAQAAAEAAAAAIAAAAAQAAAAgAAAAQAAAQEAAA=</HashCode>
+      <FileName>main_menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="multiplayer" Collapsed="true">
+    <Position X="31.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQACAAAAAAAIIAAIBAAAAAAAAAAAAAIAEAAA=</HashCode>
+      <FileName>multiplayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="options" Collapsed="true">
+    <Position X="35.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAQAAAgAAAAAIIAAAAAAAEAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>options.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pause_menu" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAQAAAAAIAAABAAAAAAgAAAAAgAAQEAAA=</HashCode>
+      <FileName>pause_menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="play" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAABAAAAIIAAAAAACAAAAAAAAAAIAEAAA=</HashCode>
+      <FileName>play.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="score" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAQAAAAIIAAAIQAAAAAAAAAAEAAAEAAA=</HashCode>
+      <FileName>score.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="victory_screen" Collapsed="true">
+    <Position X="22.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAIABIIAAAAAAAAABAAAAAAAAAEAAE=</HashCode>
+      <FileName>victory_screen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="button" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAA=</HashCode>
+      <FileName>button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="text" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAQAAABAAAAAQIAgQAAAAAAAALISAAAAAIAQAA=</HashCode>
+      <FileName>text.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="textbox" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAAAAAACACAIRAAKAAAAEAAEABAAAIQAAAgIAAAA=</HashCode>
+      <FileName>textbox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::RenderWindow" Collapsed="true">
+    <Position X="38.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIBAAAAAAAAAQASAAAAAEAAgAAAAAAAAAAA=</HashCode>
+      <FileName>c:\ProgrammingLibrary\SFML-2.4.2\include\SFML\Graphics\RenderWindow.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="menu_factory::menu_factory" Collapsed="true">
+    <Position X="40" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>menu_factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="direction" Collapsed="true">
+    <Position X="38.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAgAAgAA=</HashCode>
+      <FileName>input_manager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="tile_type" Collapsed="true">
+    <Position X="40" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>tile.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
